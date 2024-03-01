@@ -1,0 +1,49 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+ .logo{
+        display: flex;
+         align-items: center;
+         justify-content: center;
+         gap:5px;
+         margin-top: 50px;
+}
+.logo>img{
+    height: 3rem;
+    width: 3rem;
+}
+.logo>span>span{
+color: var(--pink);
+}
+/*  Menu */
+.menue{
+    margin-top: 10px;
+    display: flex;
+    
+}
+.menuitems ul li{
+    list-style: none;
+    margin-bottom: 50px;
+    margin-left: -35px;
+    
+}
+
+.menuitems span{
+    margin-left: 10px;   
+}
+.menuitems:hover{
+ cursor: pointer;
+}
+
+.menuitems li{
+    background:  transparent;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 10px;
+}
+.menuitems li.selected {
+    background: var(--activeItem); 
+  }
+ 
